@@ -14,10 +14,13 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.util.*;
 
+/**
+ * BEWARE : Very Clumsy.
+ */
 @Slf4j
 public class ExcelHelper {
 
-    private static final String INCENTIVE_TRACKER_FILE_NAME = "Incentive_Tracker.xlsx";
+    public static final String INCENTIVE_TRACKER_FILE_NAME = "Incentive_Tracker.xlsx";
     public static final String TYPE = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
     public static final String SHEET = "Sheet1";
 

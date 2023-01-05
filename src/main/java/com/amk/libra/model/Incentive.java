@@ -20,7 +20,8 @@ public class Incentive {
     String account;
     String result;
     String taSpoc;
-
+    String panelEmpId;
+    String panelEmpName;
 
 
 }
